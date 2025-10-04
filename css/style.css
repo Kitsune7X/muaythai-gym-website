@@ -1,0 +1,115 @@
+.mincho {
+    font-family: "Shippori Mincho", serif;
+}
+
+.zenkaku {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+.chivo {
+   font-family: "Chivo", sans-serif;
+}
+
+.container {
+      padding: 30px 0px;
+      width: 80%;
+      margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Header */
+header {
+    justify-content: space-between;
+}
+
+.logo {
+    /* background-color: blue; */
+    align-items: center;
+}
+
+.logo .logo-title a {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.logo .logo-img {
+    margin-left: 7px;
+    background-image: url(../logo.png);
+    background-size: contain;
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.nav {
+    gap: 30px;
+}
+
+.nav li a {
+    color: #fff;
+    transition: .3s;
+}
+
+.nav li a:hover {
+    color: #6d52c5;
+    transition: .3s;
+}
+
+/* Main */
+#hero {
+    height: 50vh;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.hero-left {
+    width: 45%;
+    flex-direction: column;
+}
+
+.hero-left h1 {
+    font-size: 30px;
+    color: #7b75f4;
+}
+
+.hero-left p {
+    line-height: 1.5;
+}
+
+.hero-left button {
+    background-color: #6d52c5;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-left a:hover {
+    color: #000;
+    background-color: #fff;
+    transition: .3s;
+}
+
+.hero-left a {
+    color: #fff;
+    background-color: #6d52c5;
+    max-width: 100px;
+    max-height: 44px;
+    border-radius: 5px;  
+    padding:4px 7px 7px 7px; 
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.hero-right {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 45%;    
+}

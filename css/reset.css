@@ -1,0 +1,74 @@
+/* Boxsizing rule */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reset headings and line height */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    line-height: 1;
+}
+
+/* Reset text line height */
+p,
+li,
+input,
+textarea,
+figcaption,
+th,
+td {
+    line-height: 1;
+}
+
+/* Remove default list style */
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Make images easier to handle */
+img,
+picture {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Remove default form elements */
+input,
+button,
+textarea,
+select {
+    appearance: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: none;
+    outline: none;
+    font-size: 100%;
+}
+
+/* Remove default link styles */
+a,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+html {
+    /* background-color: #161419; */
+    background-color: #0a0a0a;
+    font-family: "Zen Kaku Gothic New", "Shippori Mincho", "Chivo", serif, sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
