@@ -1,9 +1,9 @@
 # Ignore template text files
 *.txt
-# Ignore .png files
-*.png
 # Ignore .Identifier files
 *.Identifier
 
 # Ignore "meme" directory
 meme/
+# Ignore "reference" directory
+reference/
