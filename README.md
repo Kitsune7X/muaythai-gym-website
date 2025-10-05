@@ -1,4 +1,4 @@
-# Muay Thai Gym Homepage 🥊
+# Muay Thai Gym Homepage
 Landing page concept for a fictional **Muay Thai Gym** website.  
 
 ---
