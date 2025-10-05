@@ -7,13 +7,21 @@
 }
 
 .chivo {
-   font-family: "Chivo", sans-serif;
+    font-family: "Chivo", sans-serif;
 }
 
-.container {
-      padding: 30px 0px;
-      width: 80%;
-      margin: 0 auto;
+.container-80,
+.container-100 {
+    padding: 30px 0px;
+    margin: 0 auto;
+}
+
+.container-80 {
+    width: 80%;
+}
+
+.container-100 {
+    width: 100%;
 }
 
 .flex {
@@ -30,18 +38,28 @@ header {
     align-items: center;
 }
 
-.logo .logo-title a {
+.logo-title a {
     color: #fff;
     font-size: 17px;
     letter-spacing: 2px;
 }
 
-.logo .logo-img {
-    margin-left: 7px;
+.logo-img,
+.logo-img-small {
     background-image: url(../logo.png);
     background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo-img {
+    margin-left: 7px;
     min-width: 40px;
     min-height: 40px;
+}
+
+.logo-img-small {
+    min-width: 20px;
+    min-height: 20px;
 }
 
 .nav {
@@ -60,7 +78,7 @@ header {
 
 /* Main */
 #hero {
-    height: 50vh;
+    height: 80vh;
     justify-content: space-between;
     margin-top: 50px;
 }
@@ -77,6 +95,7 @@ header {
 
 .hero-left p {
     line-height: 1.5;
+    letter-spacing: 1px;
 }
 
 .hero-left button {
@@ -98,8 +117,8 @@ header {
     background-color: #6d52c5;
     max-width: 100px;
     max-height: 44px;
-    border-radius: 5px;  
-    padding:4px 7px 7px 7px; 
+    border-radius: 5px;
+    padding: 4px 7px 7px 7px;
     justify-content: center;
     align-items: center;
     font-weight: 900;
@@ -111,5 +130,151 @@ header {
     background-image: url(../images/hero.jpg);
     background-size: cover;
     background-position: center;
-    width: 45%;    
+    width: 45%;
+    max-height: 50vh;
+}
+
+/* Courses Info */
+#info {
+    background-color: #161617;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.info-offer {
+    align-items: center;
+    gap: 7px;
+}
+
+.info-offer h2 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.info-gallery {
+    width: 75%;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.info-gallery-box {
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+}
+
+.info-gallery-img {
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 7px;
+    border: solid 3px #6d52c5;
+}
+
+.img1 {
+    background-image: url(../images/image1.jpg);
+}
+
+.img2 {
+    background-image: url(../images/image2.jpg);
+}
+
+.img3 {
+    background-image: url(../images/image3.jpg);
+}
+
+.img4 {
+    background-image: url(../images/image4.jpg);
+}
+
+.info-gallery-box p {
+    text-align: center;
+    padding: 0px 20px;
+    letter-spacing: 1px;
+    color: #edecf3;
+}
+
+/* Testimony */
+#testimony {
+    background-color: #252527;
+    padding: 100px 220px 70px 220px;
+    flex-direction: column;
+}
+
+.testimony-box {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimony-text {
+    font-size: 17px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.testimony-user {
+    text-align: end;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-right: 10px;
+    color: #6d52c5;
+}
+
+/* Sign up */
+#sign-up {
+    background-color: #161617;
+    justify-content: center;
+}
+
+.sign-up-box {
+    width: 80%;
+    background-color: #6d52c5;
+    border-radius: 7px;
+    margin: 40px 0;
+    padding: 40px 70px;
+}
+
+.sign-up-info {
+    width: 70%;
+}
+
+.sign-up-info h3 {
+    margin: 0 0 7px 0;
+    font-size: 17px;
+}
+
+.sign-up-info p {
+    margin: 0;
+}
+
+.sign-up-btn {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-btn a {
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 900;
+    border: solid 2px #fff;
+    padding: 5px 25px 10px 25px;
+    border-radius: 7px;
+    transition: .3s;
+}
+
+.sign-up-btn a:hover {
+    background-color: #fff;
+    color: #000;
+    transition: .3s;
+}
+
+/* Footer */
+#footer {
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
 }

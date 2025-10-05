@@ -24,7 +24,7 @@ textarea,
 figcaption,
 th,
 td {
-    line-height: 1;
+    line-height: 1.5;
 }
 
 /* Remove default list style */
@@ -71,4 +71,10 @@ html {
     font-family: "Zen Kaku Gothic New", "Shippori Mincho", "Chivo", serif, sans-serif;
     font-size: 14px;
     color: #fff;
+}
+
+body {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
 }
